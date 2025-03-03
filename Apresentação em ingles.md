@@ -1,5 +1,3 @@
-## 1. Apresentação
-
 Ok, hi, Im Matheus, I´m brasilian, live here in Portugal about 2 and a half years
 I started working very young, I was only 17.
 I worked in several IT areas, PC maintenance, custumer support and among others;
@@ -42,30 +40,30 @@ and another internal areas in Vodafone group.
 Now I use in with dotnet core, RabbiMQ, Sql servers, redis.
 
 
-CLEAN CODE
+### CLEAN CODE
 my code must be easy to read, understand.
 Reusability, respect the solid principies, a Clear Flow of Execution
 
-S — Single Responsiblity Principle (Princípio da responsabilidade única)
+# S — Single Responsiblity Principle (Princípio da responsabilidade única)
 A class must be specialized in a single subject and have only one responsibility within the software
 The class must have a single task or action to work/perform.
 
-O — Open-Closed Principle (Princípio Aberto-Fechado)
+# O — Open-Closed Principle (Princípio Aberto-Fechado)
 Objects must be open for extension but closed for modification.
 for exemple if I have a payment method with cash and card, I should create a class payment with a method calc,
 and another two card and cash implementing this method with your particularities
 
-L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+# L — Liskov Substitution Principle (Princípio da substituição de Liskov)
 A derived/son class must be substitutable for its base/father class.
 if I need that my sings in the both class must be equal, but with your implementations.
 
-I — Interface Segregation Principle (Princípio da Segregação da Interface)
+# I — Interface Segregation Principle (Princípio da Segregação da Interface)
 a class does not have to implement methods that are not necessary.
 for exemple in the class payment that I mentioned the class card have a method to make the 
 comunication with "card operator, VISA, MASTER, however" and its dont make sense in cash class.
 the interface payment dont need to have a method comunication WithCardOperator this is a exclusive responsability to interface cardPayment
 
-D — Dependency Inversion Principle (Princípio da inversão da dependência)
+# D — Dependency Inversion Principle (Princípio da inversão da dependência)
 that high-level modules should not depend on low-level modules.
 
 can I give a exemple, I have a class to recovery a password, and this class need make a connection in db
@@ -73,14 +71,14 @@ This class open a connection in db its is wrong, because the responsability this
 I need a class exclusive to open/close db connections, to this inject this new class.
 
 
-MICROSERVICES
+## MICROSERVICES
 Easier to build and maintain applications.
 Business Resources
 Improved productivity and speed
 Flexibility in the use of technologies and scalability
 Autonomous and cross-functional teams
 
-APIS
+## APIS
 REST Representational State Transfer
 version control
 the corrects use to verbs, get post put/patch and delete
