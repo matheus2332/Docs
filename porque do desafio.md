@@ -1,0 +1,2 @@
+"I'm looking for new challenges that will allow me to grow professionally and expand my skills. I'm very grateful for the experience I've had so far, but I feel that this is the right time to explore a different environment where I can contribute in new ways and continue evolving. I enjoy challenging myself constantly, and I believe that a change now will help me reach new goals and make a greater impact with my work."
+
